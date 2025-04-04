@@ -2,15 +2,13 @@ module DCS
 
 go 1.23.6
 
-require (
-	fyne.io/fyne v1.4.3
-	fyne.io/fyne/v2 v2.5.5
-)
+require fyne.io/fyne/v2 v2.5.5
 
 require (
 	fyne.io/systray v1.11.0 // indirect
 	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/diamondburned/gotk4/pkg v0.3.1 // indirect
 	github.com/fredbi/uri v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/fyne-io/gl-js v0.0.0-20220119005834-d2da28d9ccfe // indirect
