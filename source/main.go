@@ -1,16 +1,10 @@
 package main
 
 import (
-	fyneApp "fyne.io/fyne/v2/app"
-	fyneWidget "fyne.io/fyne/v2/widget"
+	"DCS/source/ui"
 )
 
 func main() {
-	app := fyneApp.New()
-	win := app.NewWindow("Character Sheet")
+	ui.InitWindow()
 
-	can := win.Canvas()
-	can.SetContent(fyneWidget.NewLabel("Character Select"))
-
-	win.ShowAndRun()
 }
